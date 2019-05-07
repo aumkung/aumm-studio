@@ -32,3 +32,7 @@ firebase deploy
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+### Demo in Firebase Hosting
+
+Click => [AummStudio](https://aummstudio.firebaseapp.com/)
