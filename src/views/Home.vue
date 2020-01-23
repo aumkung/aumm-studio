@@ -2,15 +2,18 @@
   <div class="home">
     <img class="logo" alt="Profile logo" src="../assets/profile.jpg">
     <hello-component></hello-component>
+    <Pm />
   </div>
 </template>
 <script>
 import HelloComponent from '@/components/Hello.vue'
+import Pm from '@/components/Pm.vue'
 
 export default {
   name: 'home',
   components: {
-    HelloComponent
+    HelloComponent,
+    Pm
   }
 }
 </script>

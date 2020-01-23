@@ -1,7 +1,7 @@
 <template>
   <div class="hello">
-    <h1>Tassanai Singprom</h1>
-    <p>Web Developer</p>
+    <h1>{{ $store.getters.getFullname }}</h1>
+    <p>{{ $store.getters.getPosition }}</p>
   </div>
 </template>
 

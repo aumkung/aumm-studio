@@ -16,25 +16,35 @@
 </template>
 
 <style lang="scss">
+body {
+  min-height: 100vh;
+  background-color: #376194;
+  margin: 0;
+}
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
+  // text-align: center;
   color: #2c3e50;
-  background-color: #3EA4F2;
+  display: flex;
+  align-items: center;
   height: 100vh;
 }
 #nav {
-  padding: 3rem 0;
-  text-align: center;
+  // padding: 3rem 0;
+  // text-align: center;
   @media (min-width: 1024px) {
-    padding: 4rem;
-    text-align: right;
+    // padding: 4rem;
+    // text-align: right;
   }
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 4em 6em 1em 1em;
   a {
     font-weight: bold;
-    color: #2c3e50;
+    color: #ffffff;
     padding: 0 50px;
     text-decoration: none;
     &.router-link-exact-active {
@@ -49,13 +59,12 @@
     width: 100%;
 }
 .content {
-    padding: 105px 0;
-    margin: 55px auto;
+  text-align: center;
+  margin-top: 6em;
 }
 .content-wraper {
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
-  // box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.1);
   background-color: #fff;
   max-width: 1024px;
   margin: 0 auto;
@@ -63,11 +72,10 @@
   position: relative;
   .header {
     position: absolute;
-    content: '';
     top: 0;
     height: 80px;
     width: 100%;
-    background-color: #5BB1F3;
+    background-color: #416b9e;
     border-top-left-radius: 19px;
     border-top-right-radius: 19px;
     box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.1);
